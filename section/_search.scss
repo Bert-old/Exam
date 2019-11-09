@@ -1,0 +1,25 @@
+.search {
+    width: 100%;
+    background-color: #333333;
+  
+    .search__container {
+      width: 1110px;
+  
+      .search__container_image {
+        display: inline-flex;
+        justify-content: space-around;
+        padding-top: 80px;
+        padding-bottom: 120px;
+        span {
+          transform: translateY(-20px);
+          display: inline-block;
+          width: 400px;
+          height: 150px;
+          border-top: 1px dotted #ffffff;
+          border-radius: 50%;
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+  

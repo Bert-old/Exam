@@ -1,0 +1,33 @@
+.nav {
+    width: 100%;
+    background-color: #5474fd;
+    font-family: Aleo;
+    .nav__container {
+      width: 1770px;
+      // height: 80px;
+      display: flex;
+      justify-content: space-between;
+  
+      .nav__container_title {
+        padding: 30px;
+        color: #ffffff;
+        font-family: "Josefin Sans";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 26px;
+      }
+      .nav__container_navigation {
+        padding: 30px;
+
+        a {
+          padding-left: 40px;
+          color: #ffffff;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 26px;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  
