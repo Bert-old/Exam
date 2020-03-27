@@ -1,0 +1,52 @@
+.coment {
+  width: 100%;
+  background-image: url(./img/Rectangle_4142.png);
+  background-position: top left -200px;
+  background-size: cover;
+  // background-repeat: no-repeat;
+  font-family: "Josefin Sans";
+  display: flex;
+  justify-content: center;
+  .coment__container {
+    width: 1110px;
+
+    .title {
+      color: #ffffff;
+      font-family: Aleo;
+      font-size: 36px;
+      font-weight: 400;
+      text-align: center;
+      padding: 120px 0 95px 0;
+    }
+    .content {
+      display: flex;
+      padding: 0 0 200px 0;
+      height: 284px;
+      .text {
+        background-color: #333333;
+        padding: 50px 55px 0 60px;
+        .autor {
+          padding: 0 0 25px 0;
+          color: #fefefe;
+          font-size: 20px;
+          font-weight: 400;
+          text-transform: uppercase;
+        }
+        .message {
+          color: #e8e8e8;
+          font-size: 16px;
+          font-weight: 400;
+          text-align: justify;
+          line-height: 26px;
+
+          img {
+            width: 20px;
+            height: 15px;
+            color: #5474fd;
+            padding: 0 0 12px 0;
+          }
+        }
+      }
+    }
+  }
+}

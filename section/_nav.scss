@@ -1,33 +1,34 @@
 .nav {
-    width: 100%;
-    background-color: #5474fd;
-    font-family: Aleo;
-    .nav__container {
-      width: 1770px;
-      // height: 80px;
+  width: 100%;
+  background-color: #5474fd;
+  font-family: Aleo;
+  display: flex;
+  justify-content: center;
+  .nav__container {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    .nav__title {
+      padding: 27px 0;
+      // padding-left:0;
+      color: #ffffff;
+      font-family: "Josefin Sans";
+      font-size: 23px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .nav__navigation {
       display: flex;
-      justify-content: space-between;
-  
-      .nav__container_title {
-        padding: 30px;
-        color: #ffffff;
-        font-family: "Josefin Sans";
-        font-size: 24px;
-        font-weight: 700;
-        line-height: 26px;
-      }
-      .nav__container_navigation {
-        padding: 30px;
+      align-items: center;
 
-        a {
-          padding-left: 40px;
-          color: #ffffff;
-          font-size: 14px;
-          font-weight: 400;
-          line-height: 26px;
-          text-decoration: none;
-        }
+      a {
+        padding-left: 20px;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-decoration: none;
       }
     }
   }
-  
+}

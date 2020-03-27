@@ -1,56 +1,54 @@
 .house {
   width: 100%;
   background-image: url(./img/Rectangle_7.png);
-  background-position: center center no-repeat;
+  background-position: top left -300px;
   background-size: cover;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   .house__container {
     width: 1110px;
     font-family: Aleo;
-
-    .house__container_text {
+    display: flex;
+    justify-content: space-between;
+    .house__text {
       padding-top: 205px;
-      .title {
+      padding-right: 120px;
+      .house__title {
         color: #ffffff;
         font-size: 36px;
         font-weight: 400;
-        line-height: 26px;
       }
-      .desc {
+      .house__desc {
         padding-top: 60px;
         color: #e8e8e8;
         font-family: "Josefin Sans";
         font-size: 16px;
         font-weight: 400;
-        line-height: 26px;
       }
     }
-    .button {
+    .house__button {
       display: flex;
-      padding-top: 50px;
-      padding-bottom: 130px;
-
+      padding: 50px 0 130px 0;
+width: auto;
+height: auto;
       .button__container a {
-        padding: 20px 30px;
+        padding: 22px 61px;
         background-color: #5474fd;
+        background-image: url(./img/button.png);
+        background-repeat: no-repeat;
         color: #ffffff;
         font-size: 16px;
         font-weight: 400;
-        line-height: 26px;
         text-decoration: none;
       }
     }
-    .house__container_image {
-      padding-top: 120px;
-      img {
+    .house__image {
+      padding: 120px 0 0 0;
+      .bottom {
         display: flex;
         justify-content: flex-end;
+        padding-left: 125px;
       }
-      // .right{
-      //     padding-left:125px;
-      // }
-      // justify-content: flex-end;
     }
   }
 }
